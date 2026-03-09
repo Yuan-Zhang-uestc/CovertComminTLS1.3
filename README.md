@@ -1,4 +1,4 @@
-# Cover channel in TLS 1.3
+# Cover Channel in TLS 1.3
 This project demonstrates a covert communication channel embedded within the TLS 1.3 protocol using the CCCC scheme. It allows two parties to exchange hidden messages while appearing to perform a normal TLS 1.3 session to an auditor.
 
 The implementation is a proof-of-concept and includes simplified TLS handshake, modified EdDSA for IV hiding, and core cryptographic operations in GF(2¹²⁸).
